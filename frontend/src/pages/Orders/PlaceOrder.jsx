@@ -95,7 +95,7 @@ const PlaceOrder = () => {
                 <span className="font-semibold mb-4">Items:</span> $
                 {cart.itemsPrice}
               </li>
-              <li>
+{/*               <li>
                 <span className="font-semibold mb-4">Shipping:</span> $
                 {cart.shippingPrice}
               </li>
@@ -106,7 +106,7 @@ const PlaceOrder = () => {
               <li>
                 <span className="font-semibold mb-4">Total:</span> $
                 {cart.totalPrice}
-              </li>
+              </li> */}
             </ul>
 
             {error && <Message variant="danger">{error.data.message}</Message>}
